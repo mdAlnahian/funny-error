@@ -71,8 +71,6 @@ function saveYourMoney() {
   if (getInput("fifth-input") > 0) {
     let savingMoney = (getInput("fifth-input") * getInput("first-input")) / 100;
     if (savingMoney > showTheOutputOfRemainingBalance()) {
-      // let error1 = document.getElementById("error2");
-      // error1.style.display = "block";
       alert("sorry! you cant save more than your balance");
     } else {
       moneyInput.innerText = savingMoney;
@@ -80,8 +78,6 @@ function saveYourMoney() {
     }
   }else{
      alert('plz give enter a number')
-    //  let error3 = document.getElementById("error3");
-    //  error3.style.display = "block";
   }
 }
 //
