@@ -129,7 +129,7 @@ body{
     #save-button{
         display: block;
         margin-top: 18px;
-        /* margin-right: 50px;
-        margin-left: 260px; */
+        /* margin-right: 50px; */
+        margin-left: 230px;
     }
 }
